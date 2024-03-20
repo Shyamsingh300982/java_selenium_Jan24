@@ -7,24 +7,22 @@ public static void main (String[]args) {
 	System.out.println("Enter any value");
 	int i = sc.nextInt();
 	int a = i;
-	int sum1 = ArmMethod.armstrong(i);
-	System.out.println(sum1);
-	if(a==sum1) {
-		System.out.println(a+"is Armstrong no.");
+	
+	int k = ArmMethod.armstrong(i);
+	System.out.println(k);
+	if(a==k) {
+	System.out.println(a+"is Armstrong no.");
 	}
 	else {
-		System.out.println(a+"is not armstrong no.");
+	System.out.println(a+"is not armstrong no.");
 	}
-	
-	
-}
-	
-}
+	}
+	}
 
 class ArmMethod{
-	
-	public static int armstrong(int i) {
-	
+					            //method name	
+	public   static      int     armstrong (int i) {
+			//method //return type
 	int cube;
 	int j;
 	int sum = 0;{
